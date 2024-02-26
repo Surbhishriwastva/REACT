@@ -1,4 +1,5 @@
-function foodItems() {
+function FoodItems() {
+    let foodItems = ["Dal", "egg", "green vegetable", "Ghee"]
     return (
         <ul className="List-group">
             {foodItems.map((item) => (
@@ -10,4 +11,4 @@ function foodItems() {
 
     )
 }
-export default foodItems;
+export default FoodItems;
